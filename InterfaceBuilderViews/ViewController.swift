@@ -1,25 +1,22 @@
-//
-//  ViewController.swift
-//  InterfaceBuilderViews
-//
-//  Created by Leo Kwan on 7/17/18.
-//  Copyright © 2018 Leo Kwan. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var customView: EmbeddableCustomView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Add custom view in code.
+        let anotherCustomViewHeader = EmbeddableCustomView(
+            frame: CGRect(
+                x: 0,
+                y: 0,
+                width: view.bounds.width,
+                height: 100
+            )
+        )
+        anotherCustomViewHeader.titleLabel.text = "This is the same custom view initialized in code"
+        view.addSubview(anotherCustomViewHeader)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

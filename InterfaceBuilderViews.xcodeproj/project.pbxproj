@@ -14,6 +14,11 @@
 		9412BE4320FE595E007C12ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9412BE4120FE595E007C12ED /* LaunchScreen.storyboard */; };
 		9412BE4E20FE595F007C12ED /* InterfaceBuilderViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412BE4D20FE595F007C12ED /* InterfaceBuilderViewsTests.swift */; };
 		9412BE5920FE595F007C12ED /* InterfaceBuilderViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412BE5820FE595F007C12ED /* InterfaceBuilderViewsUITests.swift */; };
+		9412BE6920FE5B87007C12ED /* WithViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412BE6820FE5B87007C12ED /* WithViewModel.swift */; };
+		9412BE6B20FE63F9007C12ED /* EmbeddableCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9412BE6A20FE63F9007C12ED /* EmbeddableCustomView.xib */; };
+		9412BE6D20FE640E007C12ED /* EmbeddableCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412BE6C20FE640E007C12ED /* EmbeddableCustomView.swift */; };
+		9412BE6F20FE6469007C12ED /* HasNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412BE6E20FE6469007C12ED /* HasNib.swift */; };
+		9412BE7B2100EBB1007C12ED /* FromStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412BE7A2100EBB1007C12ED /* FromStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		9412BE5420FE595F007C12ED /* InterfaceBuilderViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterfaceBuilderViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9412BE5820FE595F007C12ED /* InterfaceBuilderViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderViewsUITests.swift; sourceTree = "<group>"; };
 		9412BE5A20FE595F007C12ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9412BE6820FE5B87007C12ED /* WithViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithViewModel.swift; sourceTree = "<group>"; };
+		9412BE6A20FE63F9007C12ED /* EmbeddableCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbeddableCustomView.xib; sourceTree = "<group>"; };
+		9412BE6C20FE640E007C12ED /* EmbeddableCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddableCustomView.swift; sourceTree = "<group>"; };
+		9412BE6E20FE6469007C12ED /* HasNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasNib.swift; sourceTree = "<group>"; };
+		9412BE7A2100EBB1007C12ED /* FromStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				9412BE3820FE595B007C12ED /* AppDelegate.swift */,
 				9412BE3A20FE595B007C12ED /* ViewController.swift */,
+				9412BE6820FE5B87007C12ED /* WithViewModel.swift */,
+				9412BE7A2100EBB1007C12ED /* FromStoryboard.swift */,
+				9412BE6E20FE6469007C12ED /* HasNib.swift */,
 				9412BE3C20FE595B007C12ED /* Main.storyboard */,
+				9412BE6A20FE63F9007C12ED /* EmbeddableCustomView.xib */,
+				9412BE6C20FE640E007C12ED /* EmbeddableCustomView.swift */,
 				9412BE3F20FE595E007C12ED /* Assets.xcassets */,
 				9412BE4120FE595E007C12ED /* LaunchScreen.storyboard */,
 				9412BE4420FE595E007C12ED /* Info.plist */,
@@ -229,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9412BE6B20FE63F9007C12ED /* EmbeddableCustomView.xib in Resources */,
 				9412BE4320FE595E007C12ED /* LaunchScreen.storyboard in Resources */,
 				9412BE4020FE595E007C12ED /* Assets.xcassets in Resources */,
 				9412BE3E20FE595B007C12ED /* Main.storyboard in Resources */,
@@ -258,6 +274,10 @@
 			files = (
 				9412BE3B20FE595B007C12ED /* ViewController.swift in Sources */,
 				9412BE3920FE595B007C12ED /* AppDelegate.swift in Sources */,
+				9412BE7B2100EBB1007C12ED /* FromStoryboard.swift in Sources */,
+				9412BE6F20FE6469007C12ED /* HasNib.swift in Sources */,
+				9412BE6920FE5B87007C12ED /* WithViewModel.swift in Sources */,
+				9412BE6D20FE640E007C12ED /* EmbeddableCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
